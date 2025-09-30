@@ -1,0 +1,9 @@
+def sum_list(numbers):
+    return sum(numbers)
+
+# Reading input
+input_line = input()
+numbers = list(map(int, input_line.split()))
+
+# Calling the function and printing the result
+print(sum_list(numbers))
